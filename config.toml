@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "ja"
+title = "koj.pw"
+theme = "hyde-hyde"
+[params.social]
+	twitter = "koji_mats"
+  github = "koji-m"
+  gravatar = "otomustam.ijok@gmail.com"
+

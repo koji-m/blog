@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>koj.pw</title>
+    <link>http://example.org/</link>
+    <description>Recent content on koj.pw</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 20 Oct 2020 10:30:48 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://example.org/posts/my-first_post/</link>
+      <pubDate>Tue, 20 Oct 2020 10:30:48 +0800</pubDate>
+      
+      <guid>http://example.org/posts/my-first_post/</guid>
+      <description>これは何？ 最初の投稿だよ
+サンプルコード Pythonのコード
+def foo(args): print(f&amp;#34;hello, {args}&amp;#34;) cp foo bar </description>
+    </item>
+    
+  </channel>
+</rss>
