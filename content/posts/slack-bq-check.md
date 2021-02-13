@@ -14,7 +14,11 @@ Slackを仕事で使い始めて約2年くらいになるが、これらの機�
 
 そこで、SlackにSQLを投稿するとそのクエリに対するBigQueryのDry Run結果を表示するSlack Appsを作った。
 
-こんな感じで、構文エラーが無い場合は処理されるバイト数が表示される。
+使い方としては、/bq_checkというslashコマンドを登録しておいて以下の様に入力する。
+
+![slack input command](/images/slack-input-command.png)
+
+するとこんな感じで、構文エラーがある場合はエラーの内容が表示され、エラーが無い場合は処理されるバイト数が表示される。
 
 ![slack bq check](/images/slack-bq-check.png)
 
@@ -154,3 +158,5 @@ def dry_run(event, context):
 ## 最後に
 
 特にハマりどころも無くすんなり実装できた。Cloud FunctionsとPub/Subでの実装がシンプルかつ、Cloud Loggingを活用することでデバッグも簡単に行えるのでスムーズに動作確認できた。
+
+今回作ったアプリを使えばSlackでお手軽にBQクエリのレビューができるようになるので、会社全体のBQ力を爆上げしていきましょう。(まずは自分から...)
