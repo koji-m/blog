@@ -1,5 +1,6 @@
 ---
 title: "Deeplearning Framework in Ruby"
+description: "書籍[ゼロから作る Deep Learning ❸](https://github.com/oreilly-japan/deep-learning-from-scratch-3)で題材となっているDeep Learningフレームワーク DeZeroをRubyと[Numo::NArray](https://github.com/ruby-numo/numo-narray)を使って実装してみたので、現状できることの紹介と実装時のポイントをいくつか説明します。"
 date: 2021-03-05T20:59:14+09:00
 draft: true
 ---
